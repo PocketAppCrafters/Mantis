@@ -13,13 +13,13 @@ final class CropAuxiliaryIndicatorView: UIView, CropAuxiliaryIndicatorViewProtoc
     private var boarderHintColor = UIColor.white
     private let cornerHandleLength = CGFloat(20.0)
     private let edgeLineHandleLength = CGFloat(30.0)
-    private let handleThickness = CGFloat(3.0)
-    private let borderThickness = CGFloat(1.0)
+    private let handleThickness = CGFloat(6.0)
+    private let borderThickness = CGFloat(2.0)
     private let hintLineThickness = CGFloat(2.0)
 
     private var hintLine = UIView()
     private var tappedEdge: CropViewAuxiliaryIndicatorHandleType = .none
-    private var gridMainColor = UIColor.white
+    private var gridMainColor = UIColor.clear
     private var gridSecondaryColor = UIColor.lightGray
     private var disableCropBoxDeformation = false
     
